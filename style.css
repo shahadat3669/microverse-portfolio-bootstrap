@@ -70,3 +70,15 @@
   background-position: top right;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 576px) {
+  #navbarScroll {
+    display: none !important;
+  }
+
+  .about-me-custom {
+    background-image: url(./images/illustration-about-me.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+}

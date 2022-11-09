@@ -1,0 +1,27 @@
+{
+  "name": "microverse-portfolio-bootstrap",
+  "version": "1.0.0",
+  "description": "> 🚧 A portfolio is one of the most powerful tools in the software developer toolbox; it’s the easiest way of showing what someone is truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what someone can bring to their teams. > In this project, I have precisely replicate one of the portfolio templates Microverse is providing for me using css Bootstrap framework!🚧",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahadat3669/microverse-portfolio-bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahadat3669/microverse-portfolio-bootstrap/issues"
+  },
+  "homepage": "https://github.com/shahadat3669/microverse-portfolio-bootstrap#readme",
+  "devDependencies": {
+    "hint": "^7.1.3",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}

@@ -3,17 +3,20 @@
   color: #fff;
 }
 
-.header-custom {
+.header-custom,
+.about-me-custom {
   background-color: #1c1a19;
 }
 
-.header-title-custom {
+.header-title-custom,
+.about-me-title-custom {
   color: #f55800;
   font-size: 4.5rem !important;
   line-height: 5.12rem;
 }
 
-.card-btn-custom {
+.card-btn-custom,
+.about-me-btn-custom {
   background-color: #f55800;
   color: #fff;
 }
@@ -60,4 +63,10 @@
 .card-custom:hover .card-elements {
   opacity: 0;
   z-index: 98;
+}
+
+.about-me-custom {
+  background-image: url(./images/illustration-about-me.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
 }

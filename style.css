@@ -12,3 +12,52 @@
   font-size: 4.5rem !important;
   line-height: 5.12rem;
 }
+
+.card-btn-custom {
+  background-color: #f55800;
+  color: #fff;
+}
+
+.card-elements {
+  background:
+    linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%
+    );
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  transition: all 0.5s ease-in-out;
+}
+
+.image-placeholder {
+  z-index: 99;
+  position: relative;
+}
+
+.card-custom {
+  cursor: pointer;
+}
+
+.card-btn-custom-2 {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.card-custom:hover .card-btn-custom-2 {
+  opacity: 1;
+}
+
+.card-custom:hover .card-elements {
+  opacity: 0;
+  z-index: 98;
+}

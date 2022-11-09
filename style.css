@@ -2,3 +2,13 @@
   background-color: #3e3c3c;
   color: #fff;
 }
+
+.header-custom {
+  background-color: #1c1a19;
+}
+
+.header-title-custom {
+  color: #f55800;
+  font-size: 4.5rem !important;
+  line-height: 5.12rem ;
+}

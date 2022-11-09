@@ -8,14 +8,14 @@
   background-color: #1c1a19;
 }
 
-.header-title-custom, 
+.header-title-custom,
 .about-me-title-custom {
   color: #f55800;
   font-size: 4.5rem !important;
   line-height: 5.12rem;
 }
 
-.card-btn-custom, 
+.card-btn-custom,
 .about-me-btn-custom {
   background-color: #f55800;
   color: #fff;
